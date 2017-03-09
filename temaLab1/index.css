@@ -1,0 +1,42 @@
+table{
+	
+	width: 100%;
+}
+td{
+	border: 1px solid black;
+}
+span{
+	color: red;
+}
+
+#span-1{
+	color: blue;
+	font-style: italic;
+}
+#first-ul{
+	color: green;
+}
+#second-ul{
+	color: red;
+}
+#first-ol{
+	color: #808000;
+}
+#second-ol{
+	color:  #0066ff;
+}
+#td-id{
+	background-color: #ffff99;
+}
+hr{
+	 height: 2px;
+	 border: 0;
+}
+#hr1{ background-color: red;
+
+}
+#hr2{ background-color: yellow;
+
+}
+#hr3{ background-color: blue;
+}
