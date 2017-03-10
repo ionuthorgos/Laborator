@@ -1,0 +1,57 @@
+
+.header{
+    position: absolute;
+    left: 1100px;
+   
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+a:link {
+    color:#000;
+}
+
+.gmail{
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+a:hover {
+    color: #848484;
+}
+.zaruri{
+    width: 8%;
+}
+.cerc{
+    width: 12%;
+}
+
+.google{
+   padding: 0px 300px;
+    
+}
+.text{
+    padding: 0px 200px;
+    margin-left: 380px;
+    background-image: url("http://www.shopniac.ro/wp-content/uploads/2016/06/tastatura-office-HP.jpg");
+}
+.button{
+    margin-left: 540px;
+}
+a.link-1:link{
+    color: blue;
+}
+.descriere{
+    padding: 0px 536px;
+}
