@@ -1,9 +1,13 @@
-
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
 .header{
     position: absolute;
     left: 1100px;
-   
 }
+
 a:link {
     text-decoration: none;
 }
@@ -30,28 +34,59 @@ a:link {
 a:hover {
     color: #848484;
 }
-.zaruri{
-    width: 8%;
-}
-.cerc{
-    width: 12%;
-}
 
 .google{
-   padding: 0px 300px;
-    
+   padding: 110px 480px;
+   position: relative;
+   top: 80px;
 }
 .text{
-    padding: 0px 200px;
-    margin-left: 380px;
-    background-image: url("http://www.shopniac.ro/wp-content/uploads/2016/06/tastatura-office-HP.jpg");
+    padding: 0px 120px;
+    margin-left: 350px;
+	font-size: 30px;
 }
 .button{
     margin-left: 540px;
+}
+.button-2{
+	 margin-left: 530px;
 }
 a.link-1:link{
     color: blue;
 }
 .descriere{
-    padding: 0px 536px;
+    padding: 0px 525px;
+}
+.zaruri{
+	width: 13%;
+	position: relative;
+	top: 10px;
+}
+.clopot{
+	width: 18%;
+	position: relative;
+	top: 11px;
+}
+.cerc{
+	width: 21%;
+	position: relative;
+	top: 18px;
+}
+.publicitate{
+    float: left; 
+    margin:0 20px  0;
+    margin-top: 104px;
+}
+.confidentialitate{
+    color: #666;
+    float: right; 
+    margin:0 20px 30px 0;
+    margin-top: 104px;
+    
+}
+.tastatura{
+     margin-left: -80px;
+}
+a.link-2:link{
+    color: #666;;
 }

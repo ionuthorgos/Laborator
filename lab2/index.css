@@ -1,0 +1,31 @@
+body{
+	margin: 0px;
+}
+.container{
+	background-color: #000;
+	margin: 0px;
+}
+.content{
+	background-color: #F00;
+	width: 800px;
+	margin: 0 auto;
+}
+.header{
+	height: 150px;
+	background-color: green;
+}
+.logo{
+	
+	float: left;
+}
+.lang{
+	
+	float: right;
+}
+.video{
+	background-color: #FFF;
+	float: left;
+	width: 250px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
