@@ -1,0 +1,20 @@
+CREATE TABLE users(
+	id INT(11) PRIMARY KEY AUTO_INCREMENT,
+	firstname VARCHAR(100) NOT NULL,
+	lastname VARCHAR(100) NOT NULL,
+	gender INT(1),
+	birthdate DATETIME,
+	address VARCHAR(255),
+	city VARCHAR(255),
+	zip VARCHAR(225),
+	country VARCHAR(255),
+	phone VARCHAR(255),
+	emailaddress VARCHAR(255) NOT NULL,
+	password VARCHAR(255) NOT NULL,
+	products INT(11),
+	
+	FOREIGN KEY(products) REFERENCES products(id),
+	
+	createddate DATETIME DEFAULT CURRENT_TIMESTAMP,
+	updateddate DATETIME ON UPDATE CURRENT_TIMESTAMP
+);
